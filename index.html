@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Chewy&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="https://bit.ly/2LTv2Zk">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Aim Pizza</title>
+</head>
+
+<body>
+  <!-- Landing page -->
+  <div  class="nav">
+    <h2>Aim<span>Pi</span>zza</h2>
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#aboutus">About us</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#orders">Orders</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div id="home" class="home">
+    <h1><strong>Welcome To Aim Pizza<br></strong></h1>
+  </div>
+
+<!-- About us -->
+  <div class="container">
+    <h2>About us</h2>
+    <div class="row">
+      <div id="img1" class="text-center">
+        <img src="img/p1.jpeg">
+      </div>
+      <div id="about-us" class="text-center">
+        <p><b>Welcome to <span>Aim Pizza</span></b></p>
+        <p></p>
+        <div id="aboutus">
+          <p>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Menu -->
+    <h1>Menu</h1>
+    <div id="menu">
+      <div class="small">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/p2.jpeg" width="500px" height="350px"><br><br>
+            </div>
+            <div class="flip-card-back">
+              <h2>Small Size pizza</h2>
+              <p>3000Frw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="medium">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/p3.jpeg" width="500px" height="350px"><br><br>
+            </div>
+            <div class="flip-card-back">
+              <h2>Medium Size pizza</h2>
+              <p>5000Frw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="large">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="img/p4.jpeg" width="500px" height="350px">
+            </div>
+            <div class="flip-card-back">
+              <h2>Large Size pizza</h2>
+              <p>10000Frw</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="type">
+        <br><br><br><br><br><br><br>
+        <h1>Pizza Crust</h1>
+        <h2>Crispy</h2>
+        <div class="img2">
+          <img src="img/p5.jpeg" width="500px" height="400px">
+        </div>
+        <h2>Stuffed Pizza</h2>
+        <div class="img3">
+          <img src="img/p7.jpeg">
+        </div>
+        <h2>Gluten-free Pizza</h2>
+        <div class="img4">
+          <img src="img/p8.jpeg" width="500px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <!-- orders -->
+        <div class="container" id="orders">
+          <h1>Order</h1>
+          <article class="index-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-2">
+                        <form action="" method="" id="form">
+                            <label for="Pizza" class="lables"><b>Pizza:</b></label>
+                            <select required class="form-control" id="pizza">
+                                <option id="Margherita" value=" Margherita">
+                                    Margherita 
+                                </option>
+                                <option id="Stromboli" value=" Stromboli">
+                                    Stromboli 
+                                </option>
+                                <option id="Marinara" value=" Marinara">
+                                    Marinara 
+                                </option>
+                                <option id="Neapolitan" value=" Neapolitan">
+                                    Neapolitan 
+                                </option>
+                                <option id="pepperoni" value=" pepperoni">
+                                    pepperoni 
+                                </option>
+                                <option id="Calzone" value=" Calzone">
+                                   Calzone 
+                                </option>
+                            </select>
+                            <div class="form-group">
+                                <label for="size" class="lables"><b>Pizza Size:</b></label>
+                                <select required name="size" id="size" class="form-control">
+                                    <option id="small" value=" small" label="small "></option>
+                                    <option id="regular" value=" regular" label="regular "></option>
+                                    <option id="medium" value=" Medium" label="Medium "></option>
+                                    <option id="large" value="large" label="Large "></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="crust" class="lables"><b>Pizza Crust:</b></label>
+                                <select required name="crust" id="crust" class="form-control">
+                                    <option id="Cheese-Stuffed"  value="Cheese-Stuffed " label="Cheese-Stuffed "></option>
+                                    <option id="Neapolitan"  value="Neapolitan" label="Neapolitan"></option>
+                                    <option id="Thin"  value="Thin " label="Thin "></option>
+                                    <option id="flatbread"  value="Flatbread " label="Flatbread "></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="toppings" class="lables"><b>Toppings:</b></label>
+                                <select required class="form-control mb-2" id="topping">
+                                    <option id="Mushrooms" value=" Mushrooms" label="  Mushrooms"></option>
+                                    <option id="pepperoni" value=" pepperoni" label="  pepperoni"></option>
+                                    <option id="Onions" value="  Onions" label=" Onions"></option>
+                                    <option id="Extra cheese" value="Extra cheese" label=" Extra cheese"></option>
+                                    <option id="Black olives" value=" Black olives" label=" Black olives"></option>
+                                    <option id="Pineapple" value=" Pineapple" label=" Pineapple"></option>
+                                    <option id="Ham" value=" Ham" label=" Ham"></option>     
+                                </select>
+                            </div>
+                            <br>
+                            <label for="amount" class="lables"><b>Quantity:</b></label>
+                            <input id="amount" class="product-quantity form-control" name="product_quantity" value="0">    
+                        </form>
+      <div class="button">
+        <br><br><button type="submit" id="btn" 
+        
+        label="">submit</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="card-footer" id="contacts">
+   <div class="row">
+     <div class="col-md-12">
+    <h2>Contacts</h2>
+    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+   <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+   <a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest"></i></a>
+  </div>
+</div>
+  </div>
+</body>
+
+</html>
