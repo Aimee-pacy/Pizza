@@ -63,7 +63,7 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Deployment
 
 
-##### Link to Live Site : []()
+##### Link to Live Site : [https://aimee-pacy.github.io/Pizza/](https://aimee-pacy.github.io/Pizza/)
 
 ### License
 
