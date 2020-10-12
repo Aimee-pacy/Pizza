@@ -45,11 +45,11 @@ h1{
     font-size: 60px;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(109, 89, 77);
+    color: rgb(165, 158, 154);
     text-shadow: 3px 3px 5px black;
 }
 .home{
-    background-image: url("img/p11.jpeg");
+    background-image: url("img/p6.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 350px;
